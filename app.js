@@ -3,7 +3,7 @@
 
 	app.controller('SiteController', ['$http', function($http) {
 		var site = this;
-		$http.get('/data.json').success(function(data) {
+		$http.get('./data.json').success(function(data) {
 			site.en = data.content[0];
 			site.ua = data.content[1];
 			site.view = site.en;

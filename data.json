@@ -1,0 +1,235 @@
+{
+	"content":[
+		{
+			"article": [
+				{
+					"id":"common",
+					"header":"All you need to know about English",
+					"content":[
+						"English is a member of the West Germanic language family and is related to Dutch, German and Lëtzebuergesch (Luxemburgish). It is written using the Latin script and is read from left to right. English is based on the Latin alphabet. The Number of Words in the English Language is estimated at over one million.",
+						"English emerged from the fusion of dialects, which were brought to Great Britain by Germanic settlers known as Angles. It was also influenced by the Old Norse and Norman French during the Vikings’ invasions and the Norman conquest. Following the influence of the British Empire from the 17th to mid-20th century, English has spread significantly across the world. Even today, through American cultural channels (e.g. music, cinema, and TV) English is a lingua franca of choice in many contexts."
+					]
+				},
+				{
+					"id":"localization",
+					"header":"Geography",
+					"content":[
+						"765 million people speak English across the world, including 360 million people who speak it as their first language, and another 430 million who speak it as their second language. Added to this, the number of people who speaks English as a foreign language is estimated at 750 million, which is more than those who speak it as a first language.",
+						"It is believed that 1 out of 4 people in the world speaks English with various levels of competence. English is the official language of Australia, Canada, Ireland, New Zealand, the United Kingdom and the United States of America, as well as more than 50 other countries around the world."
+					]
+				},
+				{
+					"id":"famous",
+					"header":"Famous speakers of English",
+					"content":[
+						{
+							"title":"William Shakespeare",
+							"description":"William Shakespeare was an English poet, playwright, and actor, widely regarded as the greatest writer in the English language and the world's pre-eminent dramatist. He is often called England's national poet, and the «Bard of Avon»",
+							"url":"img/people/shakespeare.jpg",
+							"link":"https://en.wikipedia.org/wiki/William_Shakespeare"
+						},
+						{
+							"title":"Charles Dickens",
+							"description":"Charles John Huffam Dickens was an English writer and social critic. He created some of the world's best-known fictional characters and is regarded as the greatest novelist of the Victorian era",
+							"url":"img/people/dickens.jpg",
+							"link":"https://en.wikipedia.org/wiki/Charles_Dickens"
+						},
+						{
+							"title":"Margaret Thatcher",
+							"description":"Margaret Hilda Thatcher, Baroness Thatcher, LG, OM, PC, FRS, FRIC was a British politician and stateswoman who was the Prime Minister of the United Kingdom from 1979 to 1990 and the Leader of the Conservative Party from 1975 to 1990",
+							"url":"img/people/thatcher.jpg",
+							"link":"https://en.wikipedia.org/wiki/Margaret_Thatcher"
+						},
+						{
+							"title":"John Lennon",
+							"description":"John Winston Ono Lennon, MBE was an English singer and songwriter who co-founded the Beatles, the most commercially successful band in the history of popular music. With fellow member Paul McCartney, he formed a lucrative songwriting partnership",
+							"url":"img/people/lennon.jpg",
+							"link":"https://en.wikipedia.org/wiki/John_Lennon"
+						},
+						{
+							"title":"Paul McCartney",
+							"description":"Sir James Paul McCartney, MBE (born 18 June 1942) is an English singer-songwriter, multi-instrumentalist, and composer. With John Lennon, George Harrison, and Ringo Starr, he gained worldwide fame with the rock band the Beatles",
+							"url":"img/people/mccartney.jpg",
+							"link":"https://en.wikipedia.org/wiki/Paul_McCartney"
+						}
+					]
+				},
+				{
+					"id":"statements",
+					"header":"Well-known English sayings",
+					"content":[
+						"Absence makes the heart grow fonder. Long absent, soon forgotten.",
+						"Actions speak louder than words.",
+						"Meaning: “What you do is more important than what you say, or what you promise to do”"
+					]
+					
+				},
+				{
+					"id":"kitchen",
+					"header":"Food and drink",
+					"content":[
+						"British cuisine is associated with the United Kingdom and has been described as \"unfussy dishes made with quality local ingredients, matched with simple sauces to accentuate flavour, rather than disguise it\". British cuisine has been influenced by the people who have migrated to the UK over the years, resulting in dishes such as the Anglo-Indian chicken tikka masala, or the popular fish and chips.",
+						"Portuguese and Spanish Jewish immigrants were the first who introduced the deep-fried fish. Other UK specialities include Cornish pasties, Scottish haggis, and Welsh cakes. Cuisines from other English-speaking countries include the American hamburger, the Indian curry, the New Zealand pavlova, the Caribbean callaloo, the Irish stew and the South-African bobotie, to name only a few."
+					]
+				},
+				{
+					"id":"culture",
+					"header":"Heritage",
+					"content":[
+						"The architecture of the Anglo-Saxons was the start of English architecture. Among the surviving English churches, at least 50 are of Anglo-Saxon origin. Most of them are built in stones or bricks and their architectural style ranges from Coptic-influenced architecture to an architecture characterized by pilasters, blank arcading, and triangular-headed windows. Many English country houses and properties are now managed by English Heritage and the National Trust."
+					]
+				},
+				{
+					"id":"contact",
+					"header":"Contact",
+					"content":[
+						"Leave me feedback about this site"
+					],
+					"name":"Your name...",
+					"email":"Your E-mail...",
+					"message":"Your message..."
+				}
+			],
+			"footer":{
+				"content":[
+					"Developed and published as part of Internet-Olympiad of Information Technologies",
+					"Information",
+					"Photos"
+				],
+				"links":[
+					{
+						"name":"ІОІТ 2016",
+						"link":"https://іоіт.укр/"
+					},
+					{
+						"name":"Mastersportal",
+						"link":"http://www.mastersportal.eu/articles/1036/all-you-need-to-know-about-english.html"
+					},
+					{
+						"name":"Wikipedia",
+						"link":"http://en.wikipedia.org/"
+					},
+					{
+						"name":"Unsplash",
+						"link":"https://unsplash.com/collections/341323/all-about-english"
+					}
+				]	
+			}
+		},
+		{
+			"article":[
+				{
+					"id":"common",
+					"header":"Англійська: must know",
+					"content":[
+						"Англійська належить до західногерманської сім’ї мов і споріднена з голандською,  німецькою та люксембургською. Для написання використовується латиниця, читається англійський текстзліва направо. Кількість слів в англійській мові перевищує один мільйон.",
+						"Мова утворена із суміші діалектів, що були принесені до Великої Британії германськими поселенцями, відомими як англи. Також англійська зазнала впливу давноскандинавської та нормандської мов під час навали вікінгів та нормандських завоювань. Завдяки впливу Британської імперії у 17–20 століттях англійська поширилася по всьому світу. Навіть сьогодні через культурно-інформаційний вплив США (як-от музика, кіно, телебачення) англійська залишається мовою міжнародного спілкування."
+					]
+				},
+				{
+					"id":"localization",
+					"header":"Географія",
+					"content":[
+						"Англійською розмовляє 765 мільйонів людей по всьому світу, включаючи 360 мільйонів, для яких англійська є рідною мовою, а також 430 мільйонів, що розмовляють нею, як другою рідною. Крім цього, кількість людей, що розмовляють англійською як іноземною мовою, оцінюється в 750 мільйонів, що набагато більше за кількість носіїв англійської як рідної.",
+						"Вважається, що кожна четверта людина на землі володіє англійською на тому чи іншому рівні. Англійська є державною мовою в Австралії, Канаді, Ірландії, Новій Зеландії, Сполученому Королівстві та Сполучених штатах Америки, загалом більше ніж в 50 країнах в усьому світі."
+					]
+				},
+				{
+					"id":"famous",
+					"header":"Відомі носії англійської мови",
+					"content":[
+						{
+							"title":"Вільям Шекспір",
+							"description":"Вільям Шекспір — англійський драматург Єлизаветинської епохи. Один з найвідоміших драматургів світу, автор принаймні 17 комедій, 10 хронік, 11 трагедій, 5 поем і циклу з 154 сонетів",
+							"url":"img/people/shakespeare.jpg",
+							"link":"https://uk.wikipedia.org/wiki/%D0%92%D1%96%D0%BB%D1%8C%D1%8F%D0%BC_%D0%A8%D0%B5%D0%BA%D1%81%D0%BF%D1%96%D1%80"
+						},
+						{
+							"title":"Чарлз Діккенс",
+							"description":"Чарлз Діккенс — англійський письменник, один із найпопулярніших романістів вікторіанської епохи, відомий політичний агітатор",
+							"url":"img/people/dickens.jpg",
+							"link":"https://uk.wikipedia.org/wiki/%D0%A7%D0%B0%D1%80%D0%BB%D0%B7_%D0%94%D1%96%D0%BA%D0%BA%D0%B5%D0%BD%D1%81"
+						},
+						{
+							"title":"Маргарет Тетчер",
+							"description":"Баронеса Маргарет Гільда Тетчер — 71-й прем'єр-міністр Великої Британії у 1979–1990 роках, баронеса з 1992 року. Перша жінка на цій посаді, а також перша жінка, що стала прем'єр-міністром європейської держави",
+							"url":"img/people/thatcher.jpg",
+							"link":"https://uk.wikipedia.org/wiki/%D0%9C%D0%B0%D1%80%D0%B3%D0%B0%D1%80%D0%B5%D1%82_%D0%A2%D0%B5%D1%82%D1%87%D0%B5%D1%80"
+						},
+						{
+							"title":"Джон Леннон",
+							"description":"Джон Вінстон Оно Леннон — британський рок-музикант, співак, композитор, художник, письменник, політичний активіст. Засновник й учасник гурту «The Beatles», один із найвпливовіших музикантів XX століття",
+							"url":"img/people/lennon.jpg",
+							"link":"https://uk.wikipedia.org/wiki/%D0%94%D0%B6%D0%BE%D0%BD_%D0%9B%D0%B5%D0%BD%D0%BD%D0%BE%D0%BD"
+						},
+						{
+							"title":"Пол Маккартні",
+							"description":"Сер Джеймс Пол Маккартні — британський співак, композитор, автор пісень, мультиінструменталіст, музичний продюсер, підприємець, лауреат численних премій Grammy, кавалер Ордена Британської імперії, лицар Британської імперії",
+							"url":"img/people/mccartney.jpg",
+							"link":"https://uk.wikipedia.org/wiki/%D0%9F%D0%BE%D0%BB_%D0%9C%D0%B0%D0%BA%D0%BA%D0%B0%D1%80%D1%82%D0%BD%D1%96"
+						}
+					]
+				},
+				{
+					"id":"statements",
+					"header":"Відомі англійські вислови",
+					"content":[
+						"Absence makes the heart grow fonder. Long absent, soon forgotten.",
+						"Actions speak louder than words.",
+						"Значення: «Те, що ми робимо, — набагато важливіше, ніж те, що ми говоримо чи обіцяємо зробити»"
+					]
+				},
+				{
+					"id":"kitchen",
+					"header":"Різноманіття кухні",
+					"content":[
+						"Англійська кухня асоціюється із Королівською Британією та описується так: «нескладні страви, приготовані з якісних місцевих інгредієнтів, в поєднанні з простими соусами, щоб підкреслити смак, а не приховати це». Вона зазнала впливу людей, що мігрували до Великої Британії вродовж багатьох років, в результаті чого з’явилися такі страви, як англо-індійське курча тіка-масала; також здобули популярність риба та чіпси.",
+						"Іммігранти з Португалії та іспанські євреї були першими, хто спробував рибу в фритюрі. Інші британські страви включають корноульські чебуреки, шотландський гаґґіс та уельске печиво. Кухні в інших англомовних країнах включають американські гамбургери, індійський каррі, новозеландську павлову, карибський калалу, ірландське рагу, південно-африканський боботі та багато інших незвичайних страв. "
+					]
+				},
+				{
+					"id":"culture",
+					"header":"Культурна спадщина",
+					"content":[
+						"Англійська архітектура бере початок із традицій англо-саксів. Серед уцілілих англійських церков щонайменше 50 мають англо-сакське походження. Більшість з них збудовані із каменю або цегли в їхньому архітектурному стилі, який зазнав впливу коптів та характеризується пілястрами, пустими арками та трикутними вікнами. Багато англійських заміських будинків та нерухомості перебувають під управлінням Англійської спадщини та Національного фонду."
+					]
+				},
+				{
+					"id":"contact",
+					"header":"Контакти",
+					"content":[
+						"Залиште свої враження про цей сайт"
+					],
+					"name":"Твоє ім'я...",
+					"email":"Твій E-mail...",
+					"message":"Твоє повідомлення..."
+				}
+			],
+			"footer":{
+				"content":[
+					"Розроблено і опубліковано як частина інтернет-олімпіади з інформаційних технологій",
+					"Інформація",
+					"Фото"
+				],
+				"links":[
+					{
+						"name":"ІОІТ 2016",
+						"link":"https://іоіт.укр/"
+					},
+					{
+						"name":"Mastersportal",
+						"link":"http://www.mastersportal.eu/articles/1036/all-you-need-to-know-about-english.html"
+					},
+					{
+						"name":"Wikipedia",
+						"link":"https://uk.wikipedia.org/wiki/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B0_%D1%81%D1%82%D0%BE%D1%80%D1%96%D0%BD%D0%BA%D0%B0"
+					},
+					{
+						"name":"Unsplash",
+						"link":"https://unsplash.com/collections/341323/all-about-english"
+					}
+				]	
+			}
+		}
+	]
+}

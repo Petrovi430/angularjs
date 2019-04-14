@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app="aboutEnglish">
+<head>
+	<meta charset="UTF-8">
+	<meta name="itolymp:authcheck" content="e2d675b655d3993a93ce3467d72b277a">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>About English</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div id="wrapper" data-ng-controller="SiteController as site">
+		<div id="lang">
+			<button data-ng-click="site.changeLang(site.view)">{{site.lang}}</button>
+		</div>
+		<article data-ng-repeat="item in site.view.article" id="{{item.id}}">
+			<header>
+				<a href="https://en.wikipedia.org/wiki/List_of_countries_by_English-speaking_population" data-ng-show="site.viewMap(item.id)"></a>
+				<h1>{{item.header}}</h1>
+			</header>
+			<div class="content">
+				<p data-ng-repeat="item2 in item.content" data-ng-show="site.viewContent(item.id)" >{{item2}}</p>
+				<div data-famous-speakers data-ng-hide="site.viewContent(item.id)" data-ng-controller="SlideController as slide"></div>
+				<form id="feedback" data-ng-show="site.viewForm(item.id)">
+
+					<!-- Hidden Required Fields -->
+					<input type="hidden" name="project_name" value="About English">
+					<input type="hidden" name="admin_email" value="petrovi4@i.ua">
+					<input type="hidden" name="form_subject" value="Feedback about site">
+					<!-- END Hidden Required Fields -->
+
+					<input id="first" type="text" name="Name" placeholder="{{item.name}}" required><br>
+					<input type="email" name="E-mail" placeholder="{{item.email}}" required><br>
+					<textarea name="Phone" placeholder="{{item.message}}"></textarea><br>
+					<button>Send</button>
+
+				</form>
+			</div>
+		</article>
+		<footer>
+			<div>
+				<p>{{site.view.footer.content[0]}} ( <a data-ng-href="{{site.view.footer.links[0].link}}">{{site.view.footer.links[0].name}}</a> )</p>
+				<p> {{site.view.footer.content[1]}}:
+					<a data-ng-href="{{site.view.footer.links[1].link}}">{{site.view.footer.links[1].name}}</a>, 
+					<a data-ng-href="{{site.view.footer.links[2].link}}">{{site.view.footer.links[2].name}}</a> | {{site.view.footer.content[2]}}
+					<a data-ng-href="{{site.view.footer.links[3].link}}">{{site.view.footer.links[3].name}}</a>
+				</p>
+				<p>Copyright &copy; Petrovi4, 2017. Created by <a href="https://www.linkedin.com/profile/preview?locale=ru_RU&trk=prof-0-sb-preview-primary-button">Petrovi4</a></p>
+			</div>
+		</footer> 
+	</div>
+	<script src="jquery-3.2.1.min.js"></script>
+	<script src="script.js"></script>
+	<script src="bower_components/angular/angular.min.js"></script>
+	<script src="app.js"></script>
+</body>
+</html>

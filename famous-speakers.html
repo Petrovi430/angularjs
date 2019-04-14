@@ -1,0 +1,12 @@
+<button data-ng-click="slide.selectSlide(-1, item)"></button>
+<button data-ng-click="slide.selectSlide(1, item)"></button>
+<div id="people">
+	<div id="items" data-ng-repeat="item3 in item.content" data-ng-show="slide.showSlide(item3, item)">
+		<div class="image">
+			<img data-ng-src="{{item3.url}}" alt="{{item3.title}}">
+			<a data-ng-href="{{item3.link}}">Wikipedia  </a>
+		</div>
+		<h2>{{item3.title}}</h2>
+		<p>{{item3.description}}</p>
+	</div>
+</div>

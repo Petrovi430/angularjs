@@ -1,0 +1,405 @@
+@font-face {
+    font-weight: normal;
+    font-family: 'OpenSansRegular';
+    src: url(fonts/OpenSansRegular.ttf);
+}
+@font-face {
+    font-weight: bold;
+    font-family: 'OpenSansBold';
+    src: url(fonts/OpenSansBold.ttf);
+}
+@font-face {
+    font-weight: normal;
+    font-family: 'OpenSansItalic';
+    src: url(fonts/OpenSansItalic.ttf);
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font: normal 100% Georgia, Arial;
+	color:#212121;
+	line-height: 1.9em;
+}
+#wrapper{
+	position: relative;
+	margin: 0 auto;
+	max-width:1280px;
+	font-size: 1.25em;
+}
+#lang{
+	position: absolute;
+	top:20px;
+	left: 20px;
+}
+#lang button{
+	width: 50px;
+	height: 50px;
+	background: #393C41;
+	border: 4px solid yellow;
+	border-radius: 25px;
+	font-size: 1.5em;
+	color:#fff;
+	cursor: pointer;
+	transition: all .8s;
+}
+#lang button, 
+#lang button:active, 
+#lang button:focus {
+    outline: none;
+}
+article h1{
+	padding-top: 17.5%;
+	padding-bottom: 2.9%;
+	margin-left: 12.5%;
+	font: 2em OpenSansRegular;
+	line-height: 1.3em;
+	letter-spacing: .015em;
+	color:#fff;
+}
+article p{
+	padding-bottom: 20px;
+}
+.content{
+	width: 610px;
+	margin: 6% auto 10.6%;
+}
+#common header{
+	background: url(img/covers/bicycles.jpg) center center no-repeat;
+	background-size: cover;
+}
+#common header h1{
+	padding-top: 36.5%;
+	padding-bottom: 2.3%;
+	width: 510px;
+	font-size: 2.5em;
+}
+#localization header{
+	position: relative;
+	background: url(img/covers/globes.jpg) center center no-repeat;
+	background-size: cover;
+}
+#localization header a{
+	position: absolute;
+	display: block;
+	top:17%;
+	left:35%;
+	height: 100%;
+	width: 63%;
+	background: url(img/map.svg) 0 0 no-repeat;
+}
+#famous{
+	padding: .1% 0 2.3%;
+}
+#famous header{
+	background: url(img/covers/books.jpg) center center no-repeat;
+	background-size: cover;
+}
+#famous .content{
+	position: relative;
+	width: 75%;
+}
+#famous button{
+	position: absolute;
+	left:-11%;
+	top:40%;
+	height: 81px;
+	width: 45px;
+	background: url(img/icons/left.png) 0 0 no-repeat;
+	-webkit-background-size:cover;
+	background-size:cover;
+	border:none;
+	cursor:pointer;
+	transition: all .8s;
+}
+#famous button:nth-of-type(2){
+	left:105%;
+	background: url(img/icons/right.png) 0 0 no-repeat;
+	background-size:cover;
+}
+#famous button:hover{
+	transform: scale(1.2);
+}
+#famous button, 
+#famous button:active, 
+#famous button:focus {
+    outline: none;
+}
+#famous #people{
+	margin: -4% auto 0em;
+}
+#famous #items{
+	position: relative;
+	min-height: 230px;
+}
+#famous h2{
+	padding-top: 1.2em;
+	padding-bottom: .3em;
+	font: bold 1.5em OpenSansRegular;
+}
+#famous p{
+	padding-bottom: .3em;
+	width: 63%;
+}
+#famous div.image{
+	position: absolute;
+	left:67.5%;
+	top:-52%;
+	width: 33.8%;
+}
+#famous div.image img{
+	width: 100%;
+	box-shadow: 0px 0px 10px #000;
+}
+#famous a{
+	font-style: italic;
+	line-height: 2.5em;
+	text-decoration: none;
+	color: #353ea7;
+}
+#famous div a:after{
+	content: ' ';
+	display: inline-block;
+	height: 16px;
+	width: 9px;
+	background: url(img/icons/wikipedia.png) 0 0 no-repeat;
+}
+#statements header{
+	background: url(img/covers/type.jpg) center center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+#statements .content{
+	width: 950px;
+}
+#statements p{
+	padding-left: 50px;
+}
+#statements p:nth-of-type(1),
+#statements p:nth-of-type(2){
+	font-size: 1.5em;
+	line-height: 1.5em;
+	font-style: italic;
+	background: url(img/icons/quotes.svg) 0 0 no-repeat;
+	background-size: 42px 32px;
+}
+#statements p:nth-of-type(1){
+	padding-bottom: 8%;
+}
+#statements p:nth-of-type(2){
+	padding-bottom: 1%;
+}
+#kitchen header{
+	background: url(img/covers/tea.jpg) center center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+#culture header{
+	background: url(img/covers/cab.jpg) center center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+#contact header{
+	background: url(img/covers/contact2.jpg) top center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+#contact form {
+	display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: box;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    -o-box-orient: horizontal;
+    -webkit-box-lines: multiple;
+    -moz-box-lines: multiple;
+    -o-box-lines: multiple;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+}
+#contact form input{
+	border: 1px solid #525252;
+	border-radius: 10px; 
+	background: transparent;
+	font: 1em RobotoMedium, arial, sans-serif;
+	/*text-transform: uppercase;*/
+	color: #373737;
+	width: 47.5%;
+	margin-bottom: 1.3em;
+	padding: 0.4em;
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	-o-box-flex: 1;
+	box-flex: 1;
+	-webkit-flex: 1 1 265px;
+	-ms-flex: 1 1 265px;
+	flex: 1 1 265px;
+}
+#contact form input#first {
+  margin-right: 1.3em;
+}
+#contact form textarea {
+	border: 1px solid #525252;
+	border-radius: 10px; 
+	background: transparent;
+	font: 1em RobotoMedium, arial, sans-serif;
+  	height: 7.1em;
+  	margin: 0 auto 1.3em;
+  	padding: 0.5em;
+  	-webkit-flex-basis: 100%;
+ 	flex-basis: 100%;
+}
+#contact form button {
+  	width: 9em;
+  	height: 2.1em;
+  	border: none;
+	border-radius: 10px; 
+  	background: #424242;
+  	font: 1em RobotoBold, arial, sans-serif;
+  	color: #fff;
+  	cursor: pointer;
+}
+#contact form button:active {
+	background: yellow;
+}
+footer{
+	background: #424242;
+	color:#fff;
+}
+footer div{
+	margin-left: 12.5%;
+	margin-right: 12.5%;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+footer a{
+	font-size: 1.25em;
+	color:#fff;
+	text-decoration: none;
+	transition: all .8s;
+}
+footer a:hover{
+	color:yellow;
+}
+@media only screen and (max-width: 1175px){
+	#famous div.image{
+		top:10%;
+	}
+}
+@media only screen and (max-width: 1085px){
+	.content{
+		max-width: 90%; 
+	}
+}
+@media only screen and (max-width: 645px){
+	#wrapper{
+		width: 100%;
+		font-size: 1em;
+	}
+	header h1{
+		font-size: 1.5em;
+	}
+	#common header h1{
+		width:80%;
+		font-size: 2em;
+	}
+	#famous button{
+		left:-11%;
+		top:30%;
+	}
+	#famous button:nth-of-type(2){
+		left:95%;
+	}
+	#famous div h2{
+		padding-top: .5em;
+		padding-bottom: 85%;
+	}
+	#famous div p{
+		width: 100%;
+	}
+	#famous div.image{
+		left:20%;
+		top:17%;
+		width: 60%;
+	}
+	#statements p{
+		padding-left: 30px;
+	}
+	#statements p:nth-of-type(1),
+	#statements p:nth-of-type(2){
+		font-size: 1.25em;
+		line-height: 1.25em;
+		font-style: italic;
+		background: url(img/icons/quotes.svg) 0 0 no-repeat;
+		background-size: 27px 17px;
+	}
+	#contact form input#first {
+	    margin-right: 0em;
+	}
+	footer div{
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	footer a{
+		font-size: 1em;
+	}
+} 
+@media only screen and (max-width: 345px){
+	#famous div.image{
+		top:13%;
+	}
+}
+@media (max-device-width: 345px) and (orientation: portrait){
+	article h1{
+		margin-left: 8%;
+	}
+	#common header{
+		background: url(img/covers/mobile-bicycles.jpg) center center no-repeat;
+		background-size: cover;
+	}
+	#localization header{
+		background: url(img/covers/mobile-globes.jpg) center center no-repeat;
+		background-size: cover;
+	}
+	#famous header{
+		background: url(img/covers/mobile-books.jpg) center center no-repeat;
+		background-size: cover;
+	}
+	#famous button{
+		height: 40px;
+		width: 23px;
+	}
+	#famous button:nth-of-type(2){
+		left:100%;
+	}
+	#famous div h2{
+		padding-top: .5em;
+		padding-bottom: 11em;
+	}
+	#famous div.image{
+		left:5%;
+		top:11%;
+		width: 90%;
+	}
+	#statements header{
+		background: url(img/covers/mobile-type.jpg) center center no-repeat;
+		background-size: cover;
+	}
+	#kitchen header{
+		background: url(img/covers/mobile-tea.jpg) center center no-repeat;
+		background-size: cover;
+	}
+	#culture header{
+		background: url(img/covers/mobile-cab.jpg) center center no-repeat;
+		background-size: cover;
+	}
+	footer div{
+		padding: 20px inherit;
+		margin: inherit 10%;
+	}
+}
